@@ -1,0 +1,146 @@
+a,
+a:focus,
+a:hover {
+    color: #75af96;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #003a21;
+    text-shadow: none;
+    background-image: none;
+    background-color: #75af96;
+    border: 1px solid #75af96;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #003a21;
+}
+
+body {
+    color: #75af96;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inner {
+    padding: 30px;
+}
+
+.coverhead-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.coverhead-nav > li {
+    display: inline-block;
+}
+
+.coverhead-nav > li + li {
+    margin-left: 20px;
+}
+
+.coverhead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #75af96;
+    color: rgba(117,175,150,.75);
+    border-bottom: 2px solid transparent;
+}
+
+.coverhead-nav > li > a:hover,
+.coverhead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #75af96;
+    border-bottom-color: rgba(117,175,150,.25);
+}
+
+.coverhead-nav > .active > a,
+.coverhead-nav > .active > a:hover,
+.coverhead-nav > .active > a:focus {
+    color: #75af96;
+    border-bottom-color: #75af96;
+}
+
+.carousel-caption > h1,
+.carousel-caption > p {
+    color: #75af96;
+}
+
+@media (min-width: 768px) {
+    .coverhead-brand {
+        float: left;
+    }
+
+    .coverhead-nav {
+        float: right;
+    }
+}
+
+.cover {
+    padding: 0 20px;
+}
+
+.cover .btn-lg {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.coverfoot {
+    color: #499272;
+    color: rgba(73,146,115,.5);
+}
+
+@media (min-width: 768px) {
+    .coverhead {
+        position: fixed;
+        top: 0;
+    }
+
+    .coverfoot {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+
+    .coverhead,
+    .coverfoot,
+    .cover-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .coverhead,
+    .coverfoot,
+    .cover-container {
+        width: 700px;
+    }
+}
